@@ -210,7 +210,7 @@ The library is published to maven central
     <version>1.2.1</version>
 </dependency>
 ```
-(Note: This requires java 11. For java 8 use version 1.1.x)
+(Note: The current development version requires Java 17. Version 1.2.x requires Java 11. For Java 8 use version 1.1.x)
 
 ### Input
 This library takes a collection of _Document_ objects with various _Elements_ as input.
