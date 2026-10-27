@@ -1,10 +1,5 @@
 language: java
 jdk:
-- oraclejdk8
-sudo: false
-addons:
-  apt:
-    packages:
-    - oracle-java8-installer
+- openjdk17
 install: true
 script: mvn install -Dmaven.javadoc.skip=true -B -V
